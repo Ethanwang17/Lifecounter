@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2E65C72BD617C100619B5C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E65C62BD617C100619B5C /* HistoryViewController.swift */; };
 		AA7306B62BCF74CC0004649A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7306B52BCF74CC0004649A /* AppDelegate.swift */; };
 		AA7306B82BCF74CC0004649A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7306B72BCF74CC0004649A /* SceneDelegate.swift */; };
 		AA7306BA2BCF74CC0004649A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7306B92BCF74CC0004649A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2E65C62BD617C100619B5C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		AA7306B22BCF74CC0004649A /* Lifecounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifecounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7306B52BCF74CC0004649A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7306B72BCF74CC0004649A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		AA7306B42BCF74CC0004649A /* Lifecounter */ = {
 			isa = PBXGroup;
 			children = (
+				AA2E65C62BD617C100619B5C /* HistoryViewController.swift */,
 				AA7306B52BCF74CC0004649A /* AppDelegate.swift */,
 				AA7306B72BCF74CC0004649A /* SceneDelegate.swift */,
 				AA7306B92BCF74CC0004649A /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				AA7306BA2BCF74CC0004649A /* ViewController.swift in Sources */,
 				AA7306B62BCF74CC0004649A /* AppDelegate.swift in Sources */,
 				AA7306B82BCF74CC0004649A /* SceneDelegate.swift in Sources */,
+				AA2E65C72BD617C100619B5C /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
