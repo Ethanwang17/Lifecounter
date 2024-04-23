@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Vertical_Stack_View: UIStackView!
     @IBOutlet weak var Nav_Stack_View: UIStackView!
-
+    
     
     
     var player1LifeCount = 20
@@ -161,9 +161,6 @@ class ViewController: UIViewController {
     @IBAction func removePlayerButtonPressed(_ sender: UIButton) {
         if playerCount > 2 {
             switch playerCount {
-                //            case 2:
-                //                Player_2.isHidden = true
-                //                Player_2_Stack.isHidden = true
             case 3:
                 Player_3.isHidden = true
                 Player_3_Stack.isHidden = true
@@ -231,7 +228,7 @@ class ViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
-
+    
     
     func addNumberToLifeCount(_ number: Int, forPlayer playerTag: Int) {
         var playerLifeCount = 0
@@ -317,7 +314,7 @@ class ViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
-
+    
     
     func subtractNumberFromLifeCount(_ number: Int, forPlayer playerTag: Int) {
         var playerLifeCount = 0
@@ -545,7 +542,7 @@ class ViewController: UIViewController {
             break
         }
         actions.append(action)
-
+        
     }
     
     
@@ -553,7 +550,6 @@ class ViewController: UIViewController {
         super.viewWillTransition(to: size, with: coordinator)
         
         if UIDevice.current.orientation.isLandscape {
-            // Set font size for landscape mode
             Player_1_Lives.font = UIFont.boldSystemFont(ofSize: 20)
             Player_2_Lives.font = UIFont.boldSystemFont(ofSize: 20)
             Player_3_Lives.font = UIFont.boldSystemFont(ofSize: 20)
@@ -570,7 +566,7 @@ class ViewController: UIViewController {
             Player_6.font = UIFont.boldSystemFont(ofSize: 15)
             Player_7.font = UIFont.boldSystemFont(ofSize: 15)
             Player_8.font = UIFont.boldSystemFont(ofSize: 15)
-
+            
             Vertical_Stack_View.axis = .horizontal
             Nav_Stack_View.axis = .vertical
             Player_1_Stack.axis = .vertical
@@ -591,19 +587,8 @@ class ViewController: UIViewController {
             Player_8.transform = CGAffineTransform(rotationAngle: CGFloat.pi / -2)
             Nav_Stack_View.transform = CGAffineTransform(rotationAngle: CGFloat.pi / -2)
             Vertical_Stack_View.spacing = -10
-
-
-
-
             
         } else {
-            // Set font size for portrait mode
-//            Player_1_Lives.font = UIFont.boldSystemFont(ofSize: 140)
-//            Player_2_Lives.font = UIFont.boldSystemFont(ofSize: 140)
-//            Player_1.font = UIFont.boldSystemFont(ofSize: 30)
-//            Player_2.font = UIFont.boldSystemFont(ofSize: 30)
-//            Vertical_Stack_View.spacing = 50
-            
             
             Player_1_Lives.font = UIFont.boldSystemFont(ofSize: 70)
             Player_2_Lives.font = UIFont.boldSystemFont(ofSize: 70)
@@ -641,12 +626,8 @@ class ViewController: UIViewController {
             Player_7.transform = CGAffineTransform.identity
             Player_8.transform = CGAffineTransform.identity
             Nav_Stack_View.transform = CGAffineTransform.identity
-
-
+            
         }
     }
-    
-    
-    
 }
 
